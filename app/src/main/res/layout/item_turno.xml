@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <!-- Imagen del médico o iniciales -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/avatarMedico"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/avatar_placeholder"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.MaterialComponents.SmallComponent"
+            android:scaleType="centerCrop"
+            android:contentDescription="Imagen del médico" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:id="@+id/textNumeroTurno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Número Turno: #####"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textEspecialidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Especialidad: Especialidad medico"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textMedico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Médico: Nombre Apellido"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textFecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha de atención: dd/mm/aaaa"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
