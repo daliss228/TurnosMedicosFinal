@@ -5,7 +5,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.example.turnosmedicosfinal.models.Medico
 import com.example.turnosmedicosfinal.models.Turno
 
-class FirebaseRepository {
+class Firebase {
 
     private val db = FirebaseFirestore.getInstance()
 

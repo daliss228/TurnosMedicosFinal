@@ -1,4 +1,8 @@
 package com.example.turnosmedicosfinal.models
 
-class Turno {
-}
+data class Turno(
+    val paciente: String = "",
+    val medico: String = "",
+    val horario: String = "",
+    val fecha: String = ""
+)
