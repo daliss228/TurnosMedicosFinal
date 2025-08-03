@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "473991789790",
+    "project_id": "turnosmedicosfinal",
+    "storage_bucket": "turnosmedicosfinal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473991789790:android:403203a34148e460a8164f",
+        "android_client_info": {
+          "package_name": "com.example.turnosmedicosfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeQ6K4tCw-9Zy8NrHpmeYctl_LWzg3QPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
