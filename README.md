@@ -48,4 +48,6 @@ Los datos de médicos están precargados en la colección medicos de Firestore.
 
 No se valida disponibilidad de turnos (los horarios no se bloquean).
 
-El objetivo principal es permitir reservas y visualización básica de turnos médicos.
+## 🎬 Video
+
+https://drive.google.com/file/d/1IS6AxNyp5YwiemFThJo-p2upXP8qzrCW/view?usp=sharing
