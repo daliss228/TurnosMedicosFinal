@@ -16,7 +16,7 @@ Una aplicación móvil desarrollada en Android para facilitar la reserva de turn
 ## ⚙️ Tecnologías usadas
 
 - Kotlin
-- Android Jetpack (ViewModel, LiveData, Navigation)
+- Android Jetpack
 - Firebase Firestore (backend de base de datos)
 - Gradle y Android Studio
 
