@@ -31,3 +31,21 @@ Ya se encuentra incluido un archivo firmado (`.apk`) listo para usar en la carpe
 1. Clona el repositorio:
    ```bash
    https://github.com/daliss228/TurnosMedicosFinal.git
+   
+2. Abre el proyecto en Android Studio.
+
+3. Ejecuta la aplicación en un emulador o dispositivo físico.
+
+## 📦 Distribución
+
+La aplicación se encuentra firmada y lista para instalarse directamente mediante el archivo .apk incluido.
+
+Si deseas generar una nueva versión, puedes hacerlo desde Android Studio: Build > Generate Signed Bundle / APK
+
+## 📝 Notas adicionales
+
+Los datos de médicos están precargados en la colección medicos de Firestore.
+
+No se valida disponibilidad de turnos (los horarios no se bloquean).
+
+El objetivo principal es permitir reservas y visualización básica de turnos médicos.
